@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  background-color: #282c34;
   height: 40vmin;
 }
 
@@ -22,11 +22,17 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@keyframes trembling {
+	0% {transform: translateX(0) rotate(0deg);}
+	20% {transform: translateX(-10px) rotate(-2deg);}
+	40% {transform: translateX(10px) rotate(2deg);}
+	60% {transform: translateX(-10px) rotate(-2deg); }
+	80% {transform: translateX(10px) rotate(2deg);}
+	100%{transform: translateY(0) rotate(0deg);}
+}
+
+.trembling {
+  height: 400px;
+	animation: trembling 5s ease-in-out infinite;
 }

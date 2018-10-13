@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import logo from '../casey.jpeg';
+import logo from '../cowboy.jpeg';
 import '../App.css';
 
 class Header extends Component {
   render() {
     return (
-      <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Howdy!
-          </p>
-         
+          <img className="trembling App-logo" src={logo} alt="logo" />
         </header>
-      </div>
     );
   }
 }
