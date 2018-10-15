@@ -1,29 +1,57 @@
+a{
+  color: white;
+}
+
+a:hover{
+  color:yellow;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+li{
+    list-style-type: none;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   background-color: #282c34;
-  height: 40vmin;
+  /* height: 9rem; */
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
   color: white;
+  
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.swaying {
+  height: 25rem;
+	animation: swaying 5s ease-in-out infinite;
+}
 
-@keyframes trembling {
+#futurePic{
+opacity: 0.2;
+}
+
+#headerPic{
+display: flex;
+flex-direction: column;
+}
+
+@keyframes swaying {
 	0% {transform: translateX(0) rotate(0deg);}
 	20% {transform: translateX(-10px) rotate(-2deg);}
 	40% {transform: translateX(10px) rotate(2deg);}
@@ -32,7 +60,3 @@
 	100%{transform: translateY(0) rotate(0deg);}
 }
 
-.trembling {
-  height: 400px;
-	animation: trembling 5s ease-in-out infinite;
-}
