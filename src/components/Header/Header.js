@@ -7,26 +7,27 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <div id="headerPic">
-          <img className="swaying App-logo" src={logo} alt="logo" />
-          <h2>
-            Howdy!
+        <div id="upperHeader">
+          <div id="headerPic">
+            <img className="swaying App-logo" src={logo} alt="logo" />
+            <h2>
+              Howdy!
           </h2>
-        </div>
-        <div id="headerInfo">
-          <h1>
-            I'm Casey Clowers.
+          </div>
+          <div id="headerInfo">
+            <h1>
+              I'm Casey Clowers.
           </h1>
-          <p>
-            I'm pretty awesome, and I really excel at a LOT of things.
+            <p>
+              I'm pretty awesome, and I really excel at a LOT of things.
           </p>
-          <p>
-            I'd say the thing I'm <b><em>best</em></b> at would be... Humility. <span style={{fontSize:8}}>;)</span>
-          </p>
-
+            <p>
+              I'd say the thing I'm <b><em>best</em></b> at would be... Humility. <span style={{ fontSize: 8 }}>;)</span>
+            </p>
+          </div>
         </div>
         <div className="futurePic">
-          <img  src={pic}></img>
+          <img src={pic}></img>
         </div>
       </header>
     );

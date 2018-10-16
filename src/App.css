@@ -26,10 +26,11 @@ li{
 .App-header {
   background-color: #282c34;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   color: white;
+  width: 100%;
   
 }
 
@@ -49,6 +50,13 @@ opacity: 0.2;
 #headerPic{
 display: flex;
 flex-direction: column;
+}
+
+#upperHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 @keyframes swaying {
