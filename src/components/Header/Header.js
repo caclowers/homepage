@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../image1.jpeg';
+import pic from '../../images/image1.jpeg';
 import '../../App.css';
 
 class Header extends Component {
@@ -11,7 +11,7 @@ class Header extends Component {
             <h2>
               Howdy!
             </h2>
-            <img className="swaying" src={logo} alt="logo" />
+            <img className="swaying" src={pic} alt="logo" />
           </div>
           <div id="headerInfo">
             <h1>
@@ -19,7 +19,7 @@ class Header extends Component {
           </h1>
             <p>
               I'm pretty awesome, and I really excel at a LOT of things.
-          </p>
+            </p>
             <p>
               I'd say the thing I'm <b><em>the best</em></b> at would be... Humility...&nbsp;
               <span style={{ fontSize: 8 }}>

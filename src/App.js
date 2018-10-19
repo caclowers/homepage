@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header/Header.js';
-import pic from './casey2.jpeg';
+import About from './components/About/About.js';
+import pic from './images/casey2.jpeg';
 import './App.css';
 
 
@@ -17,6 +18,7 @@ class App extends Component {
           </img>
           <p>what are YOU focused on?</p>
         </div>
+        <About />
       </div>
     );
   }
