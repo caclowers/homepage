@@ -21,7 +21,7 @@ class Header extends Component {
               I'm pretty awesome, and I really excel at a LOT of things.
           </p>
             <p>
-              I'd say the thing I'm <b><em>best</em></b> at would be... Humility...&nbsp;
+              I'd say the thing I'm <b><em>the best</em></b> at would be... Humility...&nbsp;
               <span style={{ fontSize: 8 }}>
                 <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation">
                   wink
