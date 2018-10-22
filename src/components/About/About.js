@@ -46,7 +46,6 @@ class About extends Component {
       <div id="logoArray">
         {logoArray}
       </div>
-       
       </section>
     )
   };
