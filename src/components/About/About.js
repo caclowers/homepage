@@ -34,18 +34,18 @@ const logos = [
 
 class About extends Component {
 
-   
+
 
   render() {
     let logoArray = logos.map(logo => {
-      return <img src={logo} alt="git-logo" width="5%"></img>
+      return <img className="logoImg" src={logo} alt="git-logo" width="5%"></img>
     })
     return (
       <section id="about">
-      <p>some stuff i've learned</p>
-      <div id="logoArray">
-        {logoArray}
-      </div>
+        <p>some stuff i've learned</p>
+        <div id="logoArray">
+          {logoArray}
+        </div>
       </section>
     )
   };

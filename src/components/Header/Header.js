@@ -5,7 +5,7 @@ import '../../App.css';
 class Header extends Component {
   render() {
     return (
-      <header className="App-header">
+      
         <div id="upperHeader">
           <div id="headerPic" className="swaying">
             <h2>
@@ -30,7 +30,6 @@ class Header extends Component {
             </p>
           </div>
         </div>
-      </header>
     );
   };
 };
