@@ -3,6 +3,16 @@ import pic from '../../images/image1.jpeg';
 import '../../App.css';
 
 class Header extends Component {
+
+  Smirk = () => {
+    window.scrollTo({
+      top: 1000000,
+      behavior: "smooth"
+    });
+  }
+
+
+
   render() {
     return (
       
@@ -18,14 +28,14 @@ class Header extends Component {
               I'm Casey Clowers.
           </h1>
             <p>
-              I'm pretty awesome, and I really excel at a LOT of things.
+              i'm pretty awesome, and i really excel at a LOT of things.
             </p>
             <p>
-              I'd say the thing I'm <b><em>the best</em></b> at would be... Humility...&nbsp;
+              i'd say the thing i'm <b><em>the best</em></b> at would be... Humility...&nbsp;
               <span style={{ fontSize: 8 }}>
-                <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation">
-                  wink
-                </a>
+                <button onClick={this.Smirk}>
+                  smirk
+                </button>
               </span>
             </p>
           </div>

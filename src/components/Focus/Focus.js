@@ -11,7 +11,7 @@ class Focus extends Component {
       <div id="focus">
       
         <div id="futurePic">
-          <p>who, me...</p>
+          <p>who, me...?</p>
           <p>yeah, you could say i'm focused</p>
           <img src={pic}
             alt="casey-looking-through-sunglasses-at-the-words-quote-the-future-end-quote">

@@ -16,20 +16,20 @@ import redux from '../../images/tech/redux.png';
 import sagas from '../../images/tech/sagas.png';
 
 const logos = [
-  angular,
-  bootstrap,
-  CSS3,
-  express,
-  git,
-  html5,
-  jquery,
   js,
-  mongodb,
+  html5,
+  CSS3,
+  angular,
+  jquery,
+  bootstrap,
+  express,
   node,
-  postgresql,
+  git,
   react,
   redux,
-  sagas
+  sagas,
+  mongodb,
+  postgresql
 ];
 
 class About extends Component {
@@ -42,7 +42,7 @@ class About extends Component {
     })
     return (
       <section id="about">
-        <p>some stuff i've learned</p>
+        <h3>some stuff i've learned with my brain</h3>
         <div id="logoArray">
           {logoArray}
         </div>
