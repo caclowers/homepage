@@ -23,7 +23,6 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
-
         <Crafts />
         <Shirts />
         <Focus />
@@ -40,6 +39,15 @@ class App extends Component {
           <button onClick={this.Top}>
             back to the top folks!
           </button>
+          <a href="mailto:caclowers@gmail.com">
+            email
+          </a>
+          <a href="https://github.com/caclowers">
+            github
+          </a>
+          <a href="https://www.linkedin.com/in/caseyclowers/">
+            linkedin
+          </a>
         </div>
       </div>
     );

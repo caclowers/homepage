@@ -106,9 +106,17 @@ li{
  box-shadow: 0.5rem 0.5rem 1rem black; 
 }
 
+
+#headerInfo{
+  display: flex;
+  flex-direction: column;
+width:50%;
+}
+
 #headerPic{
   display: flex;
   flex-direction: column;
+  
 }
 
 #iframeDiv{
