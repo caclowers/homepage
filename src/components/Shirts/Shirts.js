@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
+
+//import images
 import grin from '../../images/Shirts/grin.png';
 import hatwink from '../../images/Shirts/hatwink.png';
 import ugh from '../../images/Shirts/ugh.png';
@@ -40,9 +42,9 @@ class Shirts extends Component {
 
 
   render() {
-    let shirtArray = shirts.map(shirt => {
+    let shirtArray = shirts.map((shirt, index) => {
       return (
-        <div id="shirts">
+        <div id="shirts" key={index}>
           <img className="craftImg" src={shirt.image} alt={shirt.tag} ></img>
           <p>{shirt.tag}</p>
         </div>

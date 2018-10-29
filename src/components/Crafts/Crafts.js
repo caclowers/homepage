@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
+
+//import images
 import armguard from '../../images/Things/armguard.png';
 import banner from '../../images/Things/banner.png';
 import blanket from '../../images/Things/blanket.png';
@@ -37,33 +39,36 @@ let crafts = [
     tag: "Bought the frame, but it needed ... something. i added the corner bolsters. Now it's right."
   }
 ]
-console.log(crafts);
 
 
-class Things extends Component {
+class Crafts extends Component {
 
 
 
   render() {
-    let craftArray = crafts.map(craft => {
+    let craftArray = crafts.map((craft, index) => {
       return (
-        <div id="crafts">
-          <img className="craftImg" src={craft.image} alt={craft.tag} ></img>
+        <div id="crafts" key={index}>
+          <img
+            className="craftImg"
+            src={craft.image}
+            alt={craft.tag}>
+          </img>
           <p>{craft.tag}</p>
         </div>
-        
+
       )
     })
     return (
       <section className="itemSection">
         <h3>some things i've made with my hands</h3>
-          <div className="Array">
+        <div className="Array">
           {craftArray}
         </div>
-        
+
       </section>
     )
   };
 };
 
-export default Things;
+export default Crafts;

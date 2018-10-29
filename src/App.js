@@ -18,6 +18,12 @@ class App extends Component {
     });
   }
 
+  selfHatred = () => {
+      const url = 'https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation';
+      window.open(url, '_blank');
+  }
+
+  
   render() {
     return (
       <div className="App">
@@ -30,22 +36,30 @@ class App extends Component {
           <iframe
             title="gif-of-ryan-reynolds-smirking"
             src="https://giphy.com/embed/oYxNkISitSQo"
+            href="https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation"
             width="480"
             height="202"
             frameBorder="0"
-            class="giphy-embed"
+            className="giphy-embed"
             allowFullScreen>
           </iframe>
-          <button onClick={this.Top}>
-            back to the top folks!
+          <div>
+            <button
+              onClick={this.Top}>
+              back to the top folks!
           </button>
+            <button
+              onClick={this.selfHatred}>
+              smirks because...
+          </button>
+          </div>
           <a href="mailto:caclowers@gmail.com">
             email
           </a>
-          <a href="https://github.com/caclowers">
+          <a href="https://github.com/caclowers" rel="noopener noreferrer" target="_blank">
             github
           </a>
-          <a href="https://www.linkedin.com/in/caseyclowers/">
+          <a href="https://www.linkedin.com/in/caseyclowers/" rel="noopener noreferrer" target="_blank">
             linkedin
           </a>
         </div>

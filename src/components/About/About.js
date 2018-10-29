@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
+
+//import images
 import git from '../../images/tech/git.png';
 import bootstrap from '../../images/tech/bootstrap.png';
 import CSS3 from '../../images/tech/CSS3.png';
@@ -37,8 +39,14 @@ class About extends Component {
 
 
   render() {
-    let logoArray = logos.map(logo => {
-      return <img className="logoImg" src={logo} alt="git-logo" width="5%"></img>
+    let logoArray = logos.map((logo, index) => {
+      return <img
+        className="logoImg"
+        key={index}
+        src={logo}
+        alt="git-logo"
+        width="5%">
+      </img>
     })
     return (
       <section id="about">
