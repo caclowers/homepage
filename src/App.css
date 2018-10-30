@@ -7,7 +7,9 @@ h1{
   font-size: 3rem;
 }
 
-
+h6{
+  margin: 0;
+}
 
 li{
   list-style-type: none;
@@ -59,9 +61,6 @@ li{
   width: 100%;
 }
 
-.logoImg{
-  /* height: 5rem; */
-}
 .swaying {
   border-radius: 1rem;
   height: 25rem;
@@ -76,6 +75,15 @@ li{
   align-items: center;
   width: 100%;
   margin: 3rem 0;
+}
+
+#bottomButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+  margin-top: 1rem;
 }
 
 #crafts{

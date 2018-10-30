@@ -19,14 +19,17 @@ class App extends Component {
   }
 
   selfHatred = () => {
-      const url = 'https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation';
-      window.open(url, '_blank');
+    const url = 'https://en.wikipedia.org/wiki/Self-hatred#Self-deprecation';
+    window.open(url, '_blank');
   }
 
-  
+
   render() {
     return (
       <div className="App">
+        <h6>
+          much like this website, i am always under construction; always improving.
+        </h6>
         <Header />
         <About />
         <Crafts />
@@ -43,15 +46,15 @@ class App extends Component {
             className="giphy-embed"
             allowFullScreen>
           </iframe>
-          <div>
+          <div id="bottomButtons">
+            <button
+              onClick={this.selfHatred}>
+              i smirk because...
+            </button>
             <button
               onClick={this.Top}>
               back to the top folks!
-          </button>
-            <button
-              onClick={this.selfHatred}>
-              smirks because...
-          </button>
+            </button>
           </div>
           <a href="mailto:caclowers@gmail.com">
             email
