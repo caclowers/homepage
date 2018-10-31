@@ -17,21 +17,51 @@ import react from '../../images/tech/react.png';
 import redux from '../../images/tech/redux.png';
 import sagas from '../../images/tech/sagas.png';
 
+
 const logos = [
-  js,
-  html5,
-  CSS3,
-  angular,
-  jquery,
-  bootstrap,
-  express,
-  node,
-  git,
-  react,
-  redux,
-  sagas,
-  mongodb,
-  postgresql
+  {
+    logo: js,
+    info: "Javascript"
+  },{
+    logo: html5,
+    info: "HTML5"
+  },{
+    logo: CSS3,
+    info: "CSS3"
+  },{
+    logo: angular,
+    info: "AngularJS"
+  },{
+    logo: jquery,
+    info: "jQuery"
+  },{
+    logo: bootstrap,
+    info: "Bootstrap"
+  },{
+    logo: express,
+    info: "ExpressJS"
+  },{
+    logo: node,
+    info: "Node.JS"
+  },{
+    logo: git,
+    info: "Git"
+  },{
+    logo: react,
+    info: "ReactJS"
+  },{
+    logo: redux,
+    info: "Redux"
+  },{
+    logo: sagas,
+    info: "Redux-Sagas"
+  },{
+    logo: mongodb,
+    info: "MongoDB"
+  },{
+    logo: postgresql,
+    info: "PostgreSQL"
+  }
 ];
 
 class About extends Component {
@@ -43,7 +73,8 @@ class About extends Component {
       return <img
         className="logoImg"
         key={index}
-        src={logo}
+        src={logo.logo}
+        title={logo.info}
         alt="git-logo"
         width="5%">
       </img>
