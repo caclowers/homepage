@@ -45,7 +45,12 @@ class Shirts extends Component {
     let shirtArray = shirts.map((shirt, index) => {
       return (
         <div id="shirts" key={index}>
-          <img className="craftImg" src={shirt.image} alt={shirt.tag} ></img>
+          <img 
+          className="craftImg" 
+          src={shirt.image} 
+          title={shirt.tag}
+          alt={shirt.tag} >
+          </img>
           <p>{shirt.tag}</p>
         </div>
         
