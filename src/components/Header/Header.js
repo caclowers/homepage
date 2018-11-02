@@ -21,7 +21,11 @@ class Header extends Component {
           <h2>
             Howdy!
             </h2>
-          <img className="swaying" src={pic} alt="logo" />
+          <img 
+          className="swaying" 
+          src={pic} 
+          alt="logo" 
+          title="Halloween a few years ago"/>
         </div>
         <div id="headerInfo">
           <h1>
