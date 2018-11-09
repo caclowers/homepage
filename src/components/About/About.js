@@ -81,7 +81,7 @@ class About extends Component {
     })
     return (
       <section id="about">
-        <h3>some stuff i've learned with my brain <span style={{fontSize:8}}>(a non-comprehensive list)</span></h3>
+        <h3>some stuff i've learned with my brain <span style={{fontSize:10}}>(a non-comprehensive list)</span></h3>
         <div id="logoArray">
           {logoArray}
         </div>

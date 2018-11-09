@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import { Carousel } from "react-responsive-carousel";
 
 //import images
 import grin from '../../images/Shirts/grin.png';
@@ -57,11 +58,11 @@ class Shirts extends Component {
       )
     })
     return (
-      <section className="itemSection">
+      <section className="section">
         <h3>some apparel which i have made... hand-traced on a lightbox with Sharpie</h3>
-        <div className="Array">
+        <Carousel>
           {shirtArray}
-        </div>
+        </Carousel>
       </section>
     )
   };

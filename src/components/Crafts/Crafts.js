@@ -151,13 +151,13 @@ class Crafts extends Component {
 
     return (
 
-      <section className="itemSection">
+      <section className="section">
         <h3>some things i've made with my hands</h3>
-        <div className="Array">
+        
           <Carousel>
             {craftArray}
           </Carousel>
-        </div>
+       
       </section>
 
     )
