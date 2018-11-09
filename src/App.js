@@ -53,7 +53,7 @@ class App extends Component {
           <div id="bottomButtons">
             <button
               onClick={this.selfHatred}>
-              i smirk because...
+              get it...?
             </button>
             <button
               onClick={this.Top}>
