@@ -58,7 +58,7 @@ class Shirts extends Component {
     })
     return (
       <section className="itemSection">
-        <h3>some apparel which  i have made... hand-traced on a lightbox with Sharpie</h3>
+        <h3>some apparel which i have made... hand-traced on a lightbox with Sharpie</h3>
         <div className="Array">
           {shirtArray}
         </div>

@@ -37,8 +37,11 @@ li{
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
+  position: relative;
   width: 85%;
 }
+
+
 
 .craftImg{
   display: flex;
@@ -91,9 +94,14 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2.5rem;
-  margin-top: 0;
-  width: 85%;
+  color: white;
+  margin: 2rem;
+  width: 100%;
+}
+
+#crafts img{
+  height: 24rem;
+  width: auto;
 }
 
 
@@ -108,21 +116,20 @@ li{
   border: 4px solid white;
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem black; 
-  /* margin: 4rem; */
   width: 85%;
 }
 
 #futurePic img{
   width: 50%;
   border-radius: 1rem;
- box-shadow: 0.5rem 0.5rem 1rem black; 
+  box-shadow: 0.5rem 0.5rem 1rem black; 
 }
 
 
 #headerInfo{
   display: flex;
   flex-direction: column;
-width:50%;
+  width:50%;
 }
 
 #headerPic{

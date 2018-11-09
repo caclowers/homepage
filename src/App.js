@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import About from './components/About/About.js';
 import Focus from './components/Focus/Focus.js';
 import Header from './components/Header/Header.js';
-import Crafts from './components/Crafts/Crafts.js';
+import Carousel from './components/Crafts/Crafts.js';
 import Shirts from './components/Shirts/Shirts.js';
+
+// import Carousel from "./components/Carousel/Carousel.js";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import './App.css';
 
@@ -32,7 +35,8 @@ class App extends Component {
         </h6>
         <Header />
         <About />
-        <Crafts />
+        <Carousel />
+        {/* <Crafts /> */}
         <Shirts />
         <Focus />
         <div id="iframeDiv">
