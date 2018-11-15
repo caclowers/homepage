@@ -41,8 +41,6 @@ li{
   width: 85%;
 }
 
-
-
 .craftImg{
   display: flex;
   flex-direction: column;
@@ -53,6 +51,10 @@ li{
   border: 0.125rem solid #282c34;
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem #282c34; 
+}
+
+.giphy-embed:hover{
+  animation: swaying 3s ease-in-out infinite;
 }
 
 .itemSection{
@@ -211,7 +213,7 @@ li{
 }
 
 #upperHeader button:hover{
-  color:rebeccapurple;
+  color: chartreuse;
   text-decoration-line: underline;
 }
 

@@ -10,7 +10,7 @@ import uhoh from '../../images/Shirts/uhoh.png';
 import what from '../../images/Shirts/what.png';
 import wink from '../../images/Shirts/wink.png';
 import yawn from '../../images/Shirts/yawn.png';
-
+import cowboy from '../../images/Shirts/cowboy.png';
 
 let shirts = [
   {
@@ -34,6 +34,9 @@ let shirts = [
   }, {
     image: yawn,
     tag: "yawn? or yell?"
+  }, {
+    image: cowboy,
+    tag: "howdy"
   }
 ]
 
