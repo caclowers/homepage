@@ -41,6 +41,15 @@ li{
   width: 85%;
 }
 
+.control-arrow{
+  width: 25%;
+}
+
+.control-arrow:hover{
+  color: white;
+  border: 0.25rem solid #282c34;
+}
+
 .craftImg{
   display: flex;
   flex-direction: column;
