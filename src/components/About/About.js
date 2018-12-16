@@ -16,6 +16,7 @@ import postgresql from '../../images/tech/postgresql.png';
 import react from '../../images/tech/react.png';
 import redux from '../../images/tech/redux.png';
 import sagas from '../../images/tech/sagas.png';
+import reactnative from '../../images/tech/react-native.png';
 
 
 const logos = [
@@ -49,6 +50,9 @@ const logos = [
   },{
     logo: react,
     info: "ReactJS"
+  },{
+    logo: reactnative,
+    info: "React Native"
   },{
     logo: redux,
     info: "Redux"
