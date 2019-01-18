@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+
 import About from './components/About/About.js';
 import Focus from './components/Focus/Focus.js';
 import Header from './components/Header/Header.js';
 import Carousel from './components/Crafts/Crafts.js';
 import Shirts from './components/Shirts/Shirts.js';
+import Projects from './components/Projects/Projects.js';
 
 // import Carousel from "./components/Carousel/Carousel.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -33,8 +35,20 @@ class App extends Component {
         <h6>
           much like this website, i am always under construction; always improving.
         </h6>
+        <div>
+        <a href="mailto:caclowers@gmail.com">
+            email
+          </a>
+          <a href="https://github.com/caclowers" rel="noopener noreferrer" target="_blank">
+            github
+          </a>
+          <a href="https://www.linkedin.com/in/caseyclowers/" rel="noopener noreferrer" target="_blank">
+            linkedin
+          </a>
+        </div>
         <Header />
         <About />
+        {/* <Projects /> */}
         <Carousel />
         {/* <Crafts /> */}
         <Shirts />
