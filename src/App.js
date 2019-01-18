@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import About from './components/About/About.js';
 import Focus from './components/Focus/Focus.js';
 import Header from './components/Header/Header.js';
-import Carousel from './components/Crafts/Crafts.js';
+import Crafts from './components/Crafts/Crafts.js';
 import Shirts from './components/Shirts/Shirts.js';
 import Projects from './components/Projects/Projects.js';
 
@@ -48,9 +48,8 @@ class App extends Component {
         </div>
         <Header />
         <About />
-        {/* <Projects /> */}
-        <Carousel />
-        {/* <Crafts /> */}
+        <Projects />
+        <Crafts />
         <Shirts />
         <Focus />
         <div id="iframeDiv">
