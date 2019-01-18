@@ -29,7 +29,7 @@ class Projects extends Component {
   render() {
     let projectArray = project.map((project, index) => {
       return (
-      <div className="logoImgDiv">
+      <div className="projectImgDiv">
         {project.name}
         <img 
         className="projectImg"

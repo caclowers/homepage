@@ -74,14 +74,19 @@ class About extends Component {
 
   render() {
     let logoArray = logos.map((logo, index) => {
-      return <img
-        className="logoImg"
-        key={index}
-        src={logo.logo}
-        title={logo.info}
-        alt="git-logo"
-        width="5%">
-      </img>
+      return (
+        <div className="logoImgDiv">
+          <img
+            className="logoImg"
+            key={index}
+            src={logo.logo}
+            title={logo.info}
+            alt="git-logo"
+            width="95%">
+          </img>
+          <p>{logo.info}</p>
+        </div>
+      )
     })
     return (
       <section id="about">

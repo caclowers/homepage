@@ -83,8 +83,7 @@ li{
   font-size: 1.5rem;
   border: 0.25rem solid white;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem black; 
-  display: flex;
+  box-shadow: 0.5rem 0.5rem 1rem black;
   align-items: center;
   justify-content: space-evenly;
   padding: 0.5rem;
@@ -95,11 +94,24 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-evenly;
-  max-width: 9.2rem;
+  align-items: center;
+  font-size: 0.75rem;
+  width: 5%;
   margin: 3rem 0;
-  /* text-shadow: 1rem 1rem 0.5rem black;
-  transition: 0.75s */
+  word-wrap: break-word;
+  
+}
+
+.logoImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  height: auto;
+  /* width:95%; */
+  margin: 0.5rem 0;
+  
 }
 
 .projectImg{
@@ -113,6 +125,18 @@ li{
   margin: 0.5rem 0;
   box-shadow: 1rem 1rem 0.5rem black;
   transition: 0.75s
+}
+
+.projectImgDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 9.2rem;
+  width: "5%";
+  margin: 3rem 0;
+  /* text-shadow: 1rem 1rem 0.5rem black;
+  transition: 0.75s */
 }
 
 .projectImg:hover{
