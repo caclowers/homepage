@@ -77,7 +77,6 @@ li{
 
 .logoArray{
   display: flex;
-  /* justify-content: space-evenly; */
   background-color: #078E8B;
   min-height: 3rem;
   font-size: 1.5rem;
@@ -95,11 +94,10 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 0.75rem;
+  font-size: 1rem;
   width: 5%;
   margin: 3rem 0;
   word-wrap: break-word;
-  
 }
 
 .logoImg{
@@ -109,9 +107,7 @@ li{
   align-items: center;
   border-radius: 1rem;
   height: auto;
-  /* width:95%; */
   margin: 0.5rem 0;
-  
 }
 
 .projectImg{
@@ -123,8 +119,12 @@ li{
   height: auto;
   width: 9rem;
   margin: 0.5rem 0;
-  box-shadow: 1rem 1rem 0.5rem black;
-  transition: 0.75s
+  box-shadow:  1rem 1rem 0.5rem black;
+  transition: 0.25s
+}
+
+.projectImg:hover{
+box-shadow: 2rem 2rem 1rem black;
 }
 
 .projectImgDiv{
@@ -135,13 +135,7 @@ li{
   max-width: 9.2rem;
   width: "5%";
   margin: 3rem 0;
-  /* text-shadow: 1rem 1rem 0.5rem black;
-  transition: 0.75s */
-}
-
-.projectImg:hover{
-box-shadow: 2rem 2rem 1rem black;
-/* text-shadow: 2rem 2rem 1rem rgb(238, 228, 228); */
+  /* text-shadow: 0.5rem 0.5rem 0.5rem black; */
 }
 
 .section{
@@ -154,16 +148,6 @@ box-shadow: 2rem 2rem 1rem black;
 	animation: swaying 3s ease-in-out infinite;
 }
 
-.thumb{
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.thumb.selected{
-  border: grey
-}
 
 
 
