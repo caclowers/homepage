@@ -62,10 +62,6 @@ li{
   box-shadow: 0.5rem 0.5rem 1rem #282c34; 
 }
 
-.giphy-embed:hover{
-  animation: swaying 3s ease-in-out infinite;
-}
-
 .itemSection{
   display: flex;
   flex-direction: column;
@@ -105,7 +101,7 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   height: auto;
   margin: 0.5rem 0;
 }
@@ -115,9 +111,9 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   height: auto;
-  width: 9rem;
+  width: 85%;
   margin: 0.5rem 0;
   box-shadow:  1rem 1rem 0.5rem black;
   transition: 0.25s
@@ -132,8 +128,8 @@ box-shadow: 2rem 2rem 1rem black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 9.2rem;
-  width: "5%";
+  max-width: 32%;
+  width: 32%;
   margin: 3rem 0;
   /* text-shadow: 0.5rem 0.5rem 0.5rem black; */
 }
