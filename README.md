@@ -1,6 +1,6 @@
 # hello, friend
 
-## this is my personal [homepage](casey-a-clowers.netlify.com)
+## this is my personal [homepage](https://casey-a-clowers.netlify.com/)
 
 you'll see me waving and saying 'howdy!'
 this was Halloween several years ago
