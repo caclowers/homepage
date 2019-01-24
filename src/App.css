@@ -1,17 +1,17 @@
-a{
+a {
   color: white;
   margin: 1rem;
 }
 
-h1{
+h1 {
   font-size: 3rem;
 }
 
-h6{
+h6 {
   margin: 0;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
@@ -27,11 +27,11 @@ li{
   color: #61dafb;
 }
 
-.Array{
-  background-color: #078E8B;
+.Array {
+  background-color: #078e8b;
   border: 0.25rem solid white;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem black; 
+  box-shadow: 0.5rem 0.5rem 1rem black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,28 +41,28 @@ li{
   width: 85%;
 }
 
-.control-arrow{
+.control-arrow {
   width: 25%;
 }
 
-.control-arrow:hover{
+.control-arrow:hover {
   color: white;
   border: 0.25rem solid #282c34;
 }
 
-.craftImg{
+.craftImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 85%;
-  margin:1rem;
+  margin: 1rem;
   border: 0.125rem solid #282c34;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem #282c34; 
+  box-shadow: 0.5rem 0.5rem 1rem #282c34;
 }
 
-.itemSection{
+.itemSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,9 +71,9 @@ li{
   width: 100%;
 }
 
-.logoArray{
+.logoArray {
   display: flex;
-  background-color: #078E8B;
+  background-color: #078e8b;
   min-height: 3rem;
   font-size: 1.5rem;
   border: 0.25rem solid white;
@@ -85,7 +85,7 @@ li{
   width: 85%;
 }
 
-.logoImgDiv{
+.logoImgDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ li{
   word-wrap: break-word;
 }
 
-.logoImg{
+.logoImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,7 @@ li{
   margin: 0.5rem 0;
 }
 
-.projectImg{
+.projectImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,15 +115,15 @@ li{
   height: auto;
   width: 85%;
   margin: 0.5rem 0;
-  box-shadow:  1rem 1rem 0.5rem black;
-  transition: 0.25s
+  box-shadow: 1rem 1rem 0.5rem black;
+  transition: 0.25s;
 }
 
-.projectImg:hover{
-box-shadow: 2rem 2rem 1rem black;
+.projectImg:hover {
+  box-shadow: 2rem 2rem 1rem black;
 }
 
-.projectImgDiv{
+.projectImgDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,20 +134,17 @@ box-shadow: 2rem 2rem 1rem black;
   /* text-shadow: 0.5rem 0.5rem 0.5rem black; */
 }
 
-.section{
+.section {
   margin-top: 8rem;
 }
 
 .swaying {
   border-radius: 1rem;
   height: 25rem;
-	animation: swaying 3s ease-in-out infinite;
+  animation: swaying 3s ease-in-out infinite;
 }
 
-
-
-
-#about{
+#about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,7 +152,7 @@ box-shadow: 2rem 2rem 1rem black;
   margin: 3rem 0;
 }
 
-#bottomButtons{
+#bottomButtons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -164,7 +161,7 @@ box-shadow: 2rem 2rem 1rem black;
   margin-top: 1rem;
 }
 
-#crafts{
+#crafts {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,47 +171,45 @@ box-shadow: 2rem 2rem 1rem black;
   width: 100%;
 }
 
-#crafts img{
+#crafts img {
   height: 24rem;
   width: auto;
 }
 
-
-#focus{
+#focus {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
-  width:100%
+  width: 100%;
 }
 
-#futurePic{
-  background-color: #078E8B;
+#futurePic {
+  background-color: #078e8b;
   border: 4px solid white;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem black; 
+  box-shadow: 0.5rem 0.5rem 1rem black;
   width: 85%;
 }
 
-#futurePic img{
+#futurePic img {
   width: 50%;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem black; 
+  box-shadow: 0.5rem 0.5rem 1rem black;
 }
 
-
-#headerInfo{
+#headerInfo {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width: 50%;
 }
 
-#headerPic{
+#headerPic {
   display: flex;
   flex-direction: column;
   margin: 3rem;
 }
 
-#iframeDiv{
+#iframeDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,13 +219,11 @@ box-shadow: 2rem 2rem 1rem black;
   width: 100%;
 }
 
-#iframeDiv iframe{
+#iframeDiv iframe {
   width: 50%;
 }
 
-
-
-#shirts{
+#shirts {
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -247,12 +240,12 @@ box-shadow: 2rem 2rem 1rem black;
   margin: 2rem;
   width: 100%;
 }
-#shirts img{
+#shirts img {
   height: 24rem;
   width: auto;
 }
 
-#upperHeader{
+#upperHeader {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -262,7 +255,7 @@ box-shadow: 2rem 2rem 1rem black;
   float: left;
 }
 
-#upperHeader button{
+#upperHeader button {
   background-color: #282c34;
   border: none;
   font-size: 0.15rem;
@@ -270,16 +263,25 @@ box-shadow: 2rem 2rem 1rem black;
   text-decoration-line: underline;
 }
 
-#upperHeader button:hover{
+#upperHeader button:hover {
   color: chartreuse;
   text-decoration-line: underline;
 }
 
 @keyframes swaying {
-	0% {transform: translateX(-10px) rotate(-2deg);}
-	25% {transform: translateX(10px) rotate(2deg);}
-	50% {transform: translateX(-10px) rotate(-2deg);}
-	75% {transform: translateX(10px) rotate(2deg);}
-	100% {transform: translateX(-10px) rotate(-2deg);}
+  0% {
+    transform: translateX(-10px) rotate(-2deg);
+  }
+  25% {
+    transform: translateX(10px) rotate(2deg);
+  }
+  50% {
+    transform: translateX(-10px) rotate(-2deg);
+  }
+  75% {
+    transform: translateX(10px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-10px) rotate(-2deg);
+  }
 }
-

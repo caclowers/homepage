@@ -11,8 +11,6 @@ i like to think I have a sense of humor, as evidenced by my humility joke
 
 you might notice a small link called 'smirk' which, when clicked, will scroll the page all the way down to the bottom. there you will see a dashing gif Ryan Reynolds flashing a smirk
 
-
-
 ## tech array
 
 i have mapped an array of tech logos to the DOM, showing various technologies to which I have some exposure
