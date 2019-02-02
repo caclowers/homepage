@@ -9,7 +9,7 @@ import solcycle1 from "../../images/Projects/solcycle1.png";
 const project = [
   {
     image: woodland1,
-    name: "Woodland Pizza Mobile App",
+    name: "Woodland Pizza Mobile App - *Click to go to Google Play*",
     info: "A React-Native mobile app for Woodland Pizza in Savage, MN"
   },
   {
@@ -25,10 +25,16 @@ const project = [
 ];
 
 class Projects extends Component {
+
+  WoodlandStore = () => {
+    const url = "https://play.google.com/store/apps/details?id=host.exp.woodland_pizza";
+    window.open(url, "_blank");
+  };
+
   render() {
     let projectArray = project.map((project, index) => {
       return (
-        <div className="projectImgDiv" onClick={this.openModal}>
+        <div className="projectImgDiv" onClick={this.WoodlandStore}>
           <div>{project.name}</div>
           <img
             className="projectImg"

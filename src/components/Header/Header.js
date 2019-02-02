@@ -24,7 +24,6 @@ class Header extends Component {
         </div>
         <div id="headerInfo">
           <h1>i'm Casey Clowers.</h1>
-
           <p>i'm pretty awesome, and i really excel at a LOT of things.</p>
           <p>
             i'd say the thing i'm{" "}
