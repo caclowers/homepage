@@ -29,10 +29,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h6>
+        <h3 style={{ color: "black" }}>
           much like this website, i am always under construction; always
           improving.
-        </h6>
+        </h3 >
         <div>
           <a href="mailto:caclowers@gmail.com">email</a>
           <a
@@ -71,6 +71,7 @@ class App extends Component {
             <button onClick={this.selfHatred}>get it...?</button>
             <button onClick={this.Top}>back to the top folks!</button>
           </div>
+          </div>
           <a href="mailto:caclowers@gmail.com">email</a>
           <a
             href="https://github.com/caclowers"
@@ -86,7 +87,7 @@ class App extends Component {
           >
             linkedin
           </a>
-        </div>
+          <div style={{height: 128}}></div>
       </div>
     );
   }

@@ -9,7 +9,8 @@ import solcycle1 from "../../images/Projects/solcycle1.png";
 const project = [
   {
     image: woodland1,
-    name: "Woodland Pizza Mobile App - *Click to go to Google Play*",
+    name: "Woodland Pizza Mobile App -",
+    name2: "* Click to go to Google Play *",
     info: "A React-Native mobile app for Woodland Pizza in Savage, MN"
   },
   {
@@ -36,6 +37,7 @@ class Projects extends Component {
       return (
         <div className="projectImgDiv" onClick={this.WoodlandStore}>
           <div>{project.name}</div>
+          <div style={{ fontSize: 18 }}>{project.name2}</div>
           <img
             className="projectImg"
             key={index}
@@ -53,7 +55,7 @@ class Projects extends Component {
           some projects i've worked on{" "}
           <span style={{ fontSize: 10 }}>(hover for more info)</span>
         </h3>
-        <div className="logoArray">{projectArray}</div>
+        <div className="projectArray">{projectArray}</div>
       </section>
     );
   }

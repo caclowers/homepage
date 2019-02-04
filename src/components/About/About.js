@@ -46,11 +46,14 @@ const logos = [
   {
     logo: express,
     info: "ExpressJS"
-  },
-  {
+  },{
     logo: node,
     info: "Node.JS"
-  },
+  }
+]
+
+  const logos2 = [
+   
   {
     logo: git,
     info: "Git"
@@ -98,6 +101,23 @@ class About extends Component {
         </div>
       );
     });
+
+    let logoArray2 = logos2.map((logo, index) => {
+      return (
+        <div className="logoImgDiv">
+          <img
+            className="logoImg"
+            key={index}
+            src={logo.logo}
+            title={logo.info}
+            alt="git-logo"
+            width="95%"
+          />
+          <p>{logo.info}</p>
+        </div>
+      );
+    });
+
     return (
       <section id="about">
         <h3>
@@ -105,6 +125,7 @@ class About extends Component {
           <span style={{ fontSize: 10 }}>(a non-comprehensive list)</span>
         </h3>
         <div className="logoArray">{logoArray}</div>
+        <div className="logoArray">{logoArray2}</div>
       </section>
     );
   }
