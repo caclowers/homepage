@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.fa73abf7.chunk.css",
-  "main.js": "/static/js/main.c1429452.chunk.js",
-  "main.js.map": "/static/js/main.c1429452.chunk.js.map",
+  "main.css": "/static/css/main.94332cf1.chunk.css",
+  "main.js": "/static/js/main.31c447ad.chunk.js",
+  "main.js.map": "/static/js/main.31c447ad.chunk.js.map",
   "static/css/1.10a332ae.chunk.css": "/static/css/1.10a332ae.chunk.css",
   "static/js/1.e3725659.chunk.js": "/static/js/1.e3725659.chunk.js",
   "static/js/1.e3725659.chunk.js.map": "/static/js/1.e3725659.chunk.js.map",
@@ -38,9 +38,9 @@
   "static/media/woodland1.png": "/static/media/woodland1.cda3f829.png",
   "static/media/potatohead1.png": "/static/media/potatohead1.e98a4cfe.png",
   "static/media/solcycle1.png": "/static/media/solcycle1.8a42c43c.png",
-  "static/css/main.fa73abf7.chunk.css.map": "/static/css/main.fa73abf7.chunk.css.map",
+  "static/css/main.94332cf1.chunk.css.map": "/static/css/main.94332cf1.chunk.css.map",
   "static/css/1.10a332ae.chunk.css.map": "/static/css/1.10a332ae.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.0722560313ef70c5893a152ded2b0ce8.js": "/precache-manifest.0722560313ef70c5893a152ded2b0ce8.js",
+  "precache-manifest.8259ac2bdd1b9a7054d21b3bccd86a09.js": "/precache-manifest.8259ac2bdd1b9a7054d21b3bccd86a09.js",
   "service-worker.js": "/service-worker.js"
 }
