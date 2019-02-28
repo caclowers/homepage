@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import About from "./components/About/About.js";
 import Focus from "./components/Focus/Focus.js";
 import Header from "./components/Header/Header.js";
-// import Crafts from "./components/Crafts/Crafts.js";
-// import Shirts from "./components/Shirts/Shirts.js";
+import Crafts from "./components/Crafts/Crafts.js";
+import Shirts from "./components/Shirts/Shirts.js";
 import Projects from "./components/Projects/Projects.js";
 
 // import Carousel from "./components/Carousel/Carousel.js";
@@ -47,11 +47,11 @@ class App extends Component {
           </a>
         </div>
         <Header />
-        {/* <About />
+        <About />
         <Projects />
-        <Crafts />
-        <Shirts />
-        <Focus /> */}
+        {/* <Crafts />
+        <Shirts /> */}
+        <Focus />
         <div id="iframeDiv">
           <iframe
             title="gif-of-ryan-reynolds-smirking"

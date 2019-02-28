@@ -32,8 +32,8 @@ const project = [
 
 class Projects extends Component {
 
-  WoodlandStore = () => {
-    let url = this.props.url;
+  openLink = (url) => {
+    
     window.open(url, "_blank");
   };
 
@@ -50,9 +50,9 @@ class Projects extends Component {
             title={project.info}
             alt="project-logo"
             url={project.url}
-            onClick={this.WoodlandStore}
+            onClick={() => this.openLink(project.url)}
             
-            width="5%"
+            // width="5%"
           />
         </div>
       );
@@ -60,10 +60,10 @@ class Projects extends Component {
     return (
       <section id="about">
         <h3>
-          some projects i've worked on{" "}
-          <span style={{ fontSize: 10 }}>(hover for more info)</span>
-        </h3>
-        <div id="projectArray">{projectArray}</div>
+          some projects i've worked on</h3>
+          <span style={{ fontSize: 12 }}>(hover for more info)</span>
+        
+        <div className="Array" id="projectArray">{projectArray}</div>
       </section>
     );
   }

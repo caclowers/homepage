@@ -85,8 +85,7 @@ class About extends Component {
     let logoArray = logos.map((logo, index) => {
       return (
         <div className="logoImgDiv">
-          <p>{logo.info}</p>
-          <img
+          <p>{logo.info}</p><img
             className="logoImg"
             key={index}
             src={logo.logo}
@@ -94,6 +93,7 @@ class About extends Component {
             alt="git-logo"
             width="95%"
           />
+          
         </div>
       );
     });
@@ -102,10 +102,10 @@ class About extends Component {
     return (
       <section id="about">
         <h3>
-          some stuff i've learned with my brain{" "}
-          <span style={{ fontSize: 10 }}>(a non-comprehensive list)</span>
-        </h3>
-        <div className="logoArray">{logoArray}</div>
+          some stuff i've learned with my brain</h3>
+          <span style={{ fontSize: 12 }}>(a non-comprehensive list)</span>
+       
+        <div className="Array" id="logoArray">{logoArray}</div>
       </section>
     );
   }
