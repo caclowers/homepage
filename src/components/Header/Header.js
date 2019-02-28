@@ -13,9 +13,10 @@ class Header extends Component {
   render() {
     return (
       <div id="upperHeader">
-        <div id="headerPic" className="swaying">
-          <h2>Howdy!</h2>
+        <div >
+          <h2 className="swaying">Howdy!</h2>
           <img
+            id="headerPic" 
             className="swaying"
             src={pic}
             alt="logo"
@@ -23,7 +24,7 @@ class Header extends Component {
           />
         </div>
         <div id="headerInfo">
-          <h1>i'm Casey Clowers.</h1>
+          <h3>i'm Casey Clowers.</h3>
           <p>i'm pretty awesome, and i really excel at a LOT of things.</p>
           <p>
             i'd say the thing i'm{" "}
