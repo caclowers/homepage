@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "349b8dfe8329a5fa3be34c9f19fa6c6c",
-    "url": "/static/media/banner.349b8dfe.png"
-  },
-  {
-    "revision": "c63771d28f5a7ffe8175",
+    "revision": "da2c12dcf5aba585e26e",
     "url": "/static/css/main.7d422087.chunk.css"
   },
   {
-    "revision": "8a42c43c56baf604e4e2bf1ca2423deb",
-    "url": "/static/media/solcycle1.8a42c43c.png"
+    "revision": "da2c12dcf5aba585e26e",
+    "url": "/static/js/main.da2c12dc.chunk.js"
+  },
+  {
+    "revision": "e3725659a491e774443d",
+    "url": "/static/css/1.10a332ae.chunk.css"
   },
   {
     "revision": "e3725659a491e774443d",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/armguard.7c7c4415.png"
   },
   {
-    "revision": "c63771d28f5a7ffe8175",
-    "url": "/static/js/main.c63771d2.chunk.js"
+    "revision": "349b8dfe8329a5fa3be34c9f19fa6c6c",
+    "url": "/static/media/banner.349b8dfe.png"
   },
   {
     "revision": "b4ecd7eba5a7ccc890eae856ea12b450",
@@ -140,11 +140,11 @@ self.__precacheManifest = [
     "url": "/static/media/potatohead1.e98a4cfe.png"
   },
   {
-    "revision": "e3725659a491e774443d",
-    "url": "/static/css/1.10a332ae.chunk.css"
+    "revision": "8a42c43c56baf604e4e2bf1ca2423deb",
+    "url": "/static/media/solcycle1.8a42c43c.png"
   },
   {
-    "revision": "50683d2a57b6f5280965a2c6a3459835",
+    "revision": "bb42a7c23954ebe997496d2a2706ab4c",
     "url": "/index.html"
   }
 ];
